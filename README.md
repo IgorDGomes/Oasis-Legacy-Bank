@@ -5,6 +5,14 @@
 Oasis Legacy Bank is a banking application that aims to provide a modern and efficient banking experience for its users. The application allows users to perform various banking operations, manage accounts, and access financial information securely.
 
 
+## Important Note
+
+This project is purely hypothetical and does not represent a real-world banking system. The functionalities and features implemented here are simplified versions created to demonstrate common concepts in web development, such as user authentication, account management, and API usage.
+
+**This is not a real banking application, and no real transactions or financial activities are supported.**
+
+
+
 ## Table of Contents
 
 - [Features](#features)

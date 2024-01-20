@@ -1,5 +1,112 @@
 # Oasis-Legacy-Bank
-Welcome to Oasis Legacy Bank, where your financial journey meets a legacy of trust and prosperity.
+
+## Project Overview
+
+Oasis Legacy Bank is a banking application that aims to provide a modern and efficient banking experience for its users. The application allows users to perform various banking operations, manage accounts, and access financial information securely.
+
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+## Features
+
+- User Authentication: Secure user authentication for accessing account information.
+- Account Management: View account details, balances, and transaction history.
+- Fund Transfer: Transfer funds between accounts securely.
+- Bill Payments: Pay bills conveniently through the application.
+- Mobile Alerts: Receive alerts for transactions, account updates, and security notifications.
+
+
+## Technologies and Tools Used
+
+- **Frontend:**
+    - HTML / CSS
+    - Javascript
+    - React.js
+
+- **Backend:**
+    - Node.js with Express
+
+- **Database:**
+    - PostgreSQL
+
+- **Version Control:**
+    - Git
+<!--
+- **Testing:**
+
+- **Server Hosting:**
+
+- **Authentication and Authorization:**
+
+- **Security:**
+
+- **Content Delivery Network(CDN):**
+
+- **Logging and Monitoring:**
+
+- **Caching:**
+
+- **Accesscibility:**
+
+- **Documentation:**
+-->
+
+
+## Getting Started
+
+To start using the Oasis Legacy Bank application, simply follow these steps:
+
+1. Open your web browser.
+
+2. Navigate to the Oasis Legacy Bank website:
+
+   [Oasis Legacy Bank](link)
+
+3. Log in with your existing credentials or sign up to create a new account.
+
+4. Explore the various features of the application, including account management, fund transfers, bill payments, and mobile alerts.
+
+That's it! You are now ready to experience the Oasis Legacy Bank application online.
+
+## Usage
+
+Visit the [Oasis Legacy Bank](link) website and log in to access your banking features.
+
+
+## API Documentation
+
+For detailed API documentation, refer to the [API Documentation](file) file. This document provides information on available endpoints, request/response formats, and any authentication requirements.
+
+## Testing
+
+To run tests, use the following command:
+
+    ```
+    npm test
+    ```
+
+This will execute both unit tests and API tests to ensure the functionality and reliability of the Oasis Legacy Bank application.
+
+
+## Contributing
+
+Contributions are welcome! Before contributing, please review our [Contribution Guidelines](./CONTRIBUTING.md). Follow the guidelines for submitting issues, making pull requests, and collaborating with the project.
+
+ ## License
+
+ This project is licensed under the [MIT License](./LICENSE).
+
+ Feel free to use, modify, and distribute the code in accordance with the terms of the license.If you use this project in your own work, consider giving credit to the original authors by linking back to this repository.
 
 
 

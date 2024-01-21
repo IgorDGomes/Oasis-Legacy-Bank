@@ -194,7 +194,7 @@ android-oasis-legacy-bank-app
 <!-- Web Development -->
 <!--
 
-project-root
+oasis-legacy-bank-website
 ├── client               # Frontend code
 │   ├── public          # Publicly accessible files
 │   │   ├── index.html  # Main HTML file

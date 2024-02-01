@@ -49,7 +49,6 @@ Thank you for considering contributing to Oasis Legacy Bank! We welcome your inp
 
 Please adhere to the following coding standards:
 
-- Follow the Airbnb JavaScript Style Guide.
 - Write clear and concise code.
 - Include comments where necessary for better understanding.
 

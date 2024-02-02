@@ -15,23 +15,20 @@ This project is purely hypothetical and does not represent a real-world banking 
 
 ## Table of Contents
 
-- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [License](#license)
 
-
+<!-- 
 ## Features
 
 - User Authentication: Secure user authentication for accessing account information.
 - Account Management: View account details, balances, and transaction history.
 - Fund Transfer: Transfer funds between accounts securely.
 - Bill Payments: Pay bills conveniently through the application.
-- Mobile Alerts: Receive alerts for transactions, account updates, and security notifications.
+- Mobile Alerts: Receive alerts for transactions, account updates, and security notifications. -->
 
 
 ## Technologies and Tools Used
@@ -49,25 +46,6 @@ This project is purely hypothetical and does not represent a real-world banking 
 
 - **Version Control:**
     - Git
-<!--
-- **Testing:**
-
-- **Server Hosting:**
-
-- **Authentication and Authorization:**
-
-- **Security:**
-
-- **Content Delivery Network(CDN):**
-
-- **Logging and Monitoring:**
-
-- **Caching:**
-
-- **Accesscibility:**
-
-- **Documentation:**
--->
 
 
 ## Getting Started
@@ -86,40 +64,28 @@ To start using the Oasis Legacy Bank application, simply follow these steps:
 
 That's it! You are now ready to experience the Oasis Legacy Bank application online.
 
-## Usage
-
-Visit the [Oasis Legacy Bank](link) website and log in to access your banking features.
-
-
-## API Documentation
-
-For detailed API documentation, refer to the [API Documentation](file) file. This document provides information on available endpoints, request/response formats, and any authentication requirements.
-
-## Testing
-
-To run tests, use the following command:
-
-    ```
-    npm test
-    ```
-
-This will execute both unit tests and API tests to ensure the functionality and reliability of the Oasis Legacy Bank application.
-
 
 ## Contributing
 
-Contributions are welcome! Before contributing, please review our [Contribution Guidelines](./CONTRIBUTING.md). Follow the guidelines for submitting issues, making pull requests, and collaborating with the project.
+**Repository Not Available for Contributions**
 
- ## License
+Thank you for your interest in contributing to our project! At the moment, I've temporarily paused external contributions as I am taking some time to enhance creativity and deepen my understanding of the project.
 
- This project is licensed under the [MIT License](./LICENSE).
+We appreciate your enthusiasm and would love to welcome contributions in the future. Please check back later or stay tuned for updates on when we open up the repository for community contributions.
 
- Feel free to use, modify, and distribute the code in accordance with the terms of the license.If you use this project in your own work, consider giving credit to the original authors by linking back to this repository.
+Thank you for your understanding.
+
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+Feel free to use, modify, and distribute the code in accordance with the terms of thelicense.If you use this project in your own work, consider giving credit to the originalauthors by linking back to this repository.
 
 
 
 <!-- Android App Development -->
-<!--
+<!--        Main: Kotlin
 
 android-oasis-legacy-bank-app
 ├── frontend
@@ -192,7 +158,7 @@ android-oasis-legacy-bank-app
 -->
 
 <!-- Web Development -->
-<!--
+<!--        Main: React
 
 oasis-legacy-bank-website
 ├── client               # Frontend code

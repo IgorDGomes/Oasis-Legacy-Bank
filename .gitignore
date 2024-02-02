@@ -1,1 +1,13 @@
-node_modules
+/node_modules
+/client/node_modules
+
+/client/src/pages
+/client/src/styles
+/client/package.json
+/client/package-lock.json
+
+/server
+
+CONTRIBUTING.md
+package.json
+package-lock.json

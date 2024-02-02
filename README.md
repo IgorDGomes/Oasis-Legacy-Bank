@@ -71,7 +71,7 @@ That's it! You are now ready to experience the Oasis Legacy Bank application onl
 
 Thank you for your interest in contributing to our project! At the moment, I've temporarily paused external contributions as I am taking some time to enhance creativity and deepen my understanding of the project.
 
-We appreciate your enthusiasm and would love to welcome contributions in the future. Please check back later or stay tuned for updates on when we open up the repository for community contributions.
+I appreciate your enthusiasm and would love to welcome contributions in the future. Please check back later or stay tuned for updates on when we open up the repository for community contributions.
 
 Thank you for your understanding.
 

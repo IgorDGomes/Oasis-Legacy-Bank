@@ -54,7 +54,20 @@ To start using the Oasis Legacy Bank app, simply follow these steps:
 
 5. Explore the various features of the application, including account management, fund transfers, bill payments, and mobile alerts.
 
+<<<<<<< HEAD
 That's it! You are now ready to experience the Oasis Legacy Bank app.
+=======
+
+## Contributing
+
+**Repository Not Available for Contributions**
+
+Thank you for your interest in contributing to our project! At the moment, I've temporarily paused external contributions as I am taking some time to enhance creativity and deepen my understanding of the project.
+
+I appreciate your enthusiasm and would love to welcome contributions in the future. Please check back later or stay tuned for updates on when we open up the repository for community contributions.
+
+Thank you for your understanding.
+>>>>>>> 6ca369543c161c3398495f681cb77d228879b3b2
 
 
 ## License

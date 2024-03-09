@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-export default function Contact() {
+export default function Privacy() {
     return (
         <>
             <Head>
-                <title>OLB | Contact</title> 
+                <title>OLB | Privacy</title> 
             </Head>
             <div>
-                <div>Contact</div>
+                <div>Privacy</div>
             </div>
         </>
     )

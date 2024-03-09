@@ -33,3 +33,28 @@ h1, h2, h3 {
 header {
   background-color: #001618;
 }
+
+.home-main {
+  background: linear-gradient(50deg, #001618f3 0% 55%, #001618c7 55% 100%);
+}
+
+.nav-link {
+  position: relative;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  padding-bottom: 4px;
+}
+
+.nav-link:hover::after {
+  right: 0;
+}
+
+.nav-link::after {
+  border-bottom: 2px solid rgba(0, 89, 99, 0.7);
+  content: "";
+  position: absolute;
+  right: 100%;
+  left: 0;
+  bottom: 0;
+  transition: right .5s ease-in-out;
+}

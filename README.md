@@ -17,8 +17,8 @@ This project is purely hypothetical and does not represent a real-world banking 
 
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-<!-- - [Testing](#testing) -->
 - [License](#license)
+<!-- - [Testing](#testing) -->
 
 <!-- 
 ## Features
@@ -35,13 +35,13 @@ This project is purely hypothetical and does not represent a real-world banking 
 - CSS
 - Javascript
 - Nextjs
-- Expressjs
+- Express
 - PostgreSQL
 
 
 ## Getting Started
 
-To start using the Oasis Legacy Bank app, simply follow these steps:
+To start using the Oasis Legacy Bank, simply follow these steps:
 
 1. Open your web browser.
 
@@ -59,7 +59,7 @@ To start using the Oasis Legacy Bank app, simply follow these steps:
 
 This project is licensed under the [MIT License](./LICENSE).
 
-Feel free to use, modify, and distribute the code in accordance with the terms of thelicense.If you use this project in your own work, consider giving credit to the originalauthors by linking back to this repository.
+Feel free to use, modify, and distribute the code in accordance with the terms of the license. If you use this project in your own work, consider giving credit to the original authors by linking back to this repository.
 
 
 <!--
@@ -67,11 +67,7 @@ Feel free to use, modify, and distribute the code in accordance with the terms o
 Homepage:
 
 
-Welcome message
-
 Promotions or important announcements
-
-Quick links to popular services
 
 
 

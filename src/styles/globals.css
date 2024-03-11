@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Old Standard TT', serif
+}
+
+header {
+  background-color: #001618;
+}
+
+.home-main {
+  background: linear-gradient(50deg, #001618f3 0% 55%, #001618c7 55% 100%);
+}
+
+.nav-link {
+  position: relative;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  padding-bottom: 4px;
+}
+
+.nav-link:hover::after {
+  right: 0;
+}
+
+.nav-link::after {
+  border-bottom: 2px solid rgba(0, 89, 99, 0.7);
+  content: "";
+  position: absolute;
+  right: 100%;
+  left: 0;
+  bottom: 0;
+  transition: right .5s ease-in-out;
+}
+
+.features {
+  background: repeating-linear-gradient(140deg, #001618b9 0%, #001618e7 30%, #001618b9 50%)
+}
+
+.phone:hover {
+  animation: rotate 2s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  33% {
+    transform: rotate(-10deg);
+  }
+
+  66% {
+    transform: rotate(10deg);
+  }
+  
+  100% {
+    transform: rotate(0deg);
+  }
+}

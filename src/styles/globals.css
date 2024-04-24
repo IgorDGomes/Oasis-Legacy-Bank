@@ -1,86 +1,139 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind components;
+  @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 240 10% 3.9%;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+      --card: 0 0% 100%;
+      --card-foreground: 240 10% 3.9%;
+
+      --popover: 0 0% 100%;
+      --popover-foreground: 240 10% 3.9%;
+
+      --primary: 240 5.9% 10%;
+      --primary-foreground: 0 0% 98%;
+
+      --secondary: 240 4.8% 95.9%;
+      --secondary-foreground: 240 5.9% 10%;
+
+      --muted: 240 4.8% 95.9%;
+      --muted-foreground: 240 3.8% 46.1%;
+
+      --accent: 240 4.8% 95.9%;
+      --accent-foreground: 240 5.9% 10%;
+
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 0 0% 98%;
+
+      --border: 240 5.9% 90%;
+      --input: 240 5.9% 90%;
+      --ring: 240 10% 3.9%;
+
+      --radius: 0.5rem;
+    }
+
+    .dark {
+      --background: 240 10% 3.9%;
+      --foreground: 0 0% 98%;
+
+      --card: 240 10% 3.9%;
+      --card-foreground: 0 0% 98%;
+
+      --popover: 240 10% 3.9%;
+      --popover-foreground: 0 0% 98%;
+
+      --primary: 0 0% 98%;
+      --primary-foreground: 240 5.9% 10%;
+
+      --secondary: 240 3.7% 15.9%;
+      --secondary-foreground: 0 0% 98%;
+
+      --muted: 240 3.7% 15.9%;
+      --muted-foreground: 240 5% 64.9%;
+
+      --accent: 240 3.7% 15.9%;
+      --accent-foreground: 0 0% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 0 0% 98%;
+
+      --border: 240 3.7% 15.9%;
+      --input: 240 3.7% 15.9%;
+      --ring: 240 4.9% 83.9%;
+    }
   }
-}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
   }
-}
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-h1, h2, h3 {
-  font-family: 'Old Standard TT', serif
-}
-
-header {
-  background-color: #001618;
-}
-
-.home-main {
-  background: linear-gradient(50deg, #001618f3 0% 55%, #001618c7 55% 100%);
-}
-
-.nav-link {
-  position: relative;
-  border: none;
-  transition: all 0.5s ease-in-out;
-  padding-bottom: 4px;
-}
-
-.nav-link:hover::after {
-  right: 0;
-}
-
-.nav-link::after {
-  border-bottom: 2px solid rgba(0, 89, 99, 0.7);
-  content: "";
-  position: absolute;
-  right: 100%;
-  left: 0;
-  bottom: 0;
-  transition: right .5s ease-in-out;
-}
-
-.features {
-  background: repeating-linear-gradient(140deg, #001618b9 0%, #001618e7 30%, #001618b9 50%)
-}
-
-.phone:hover {
-  animation: rotate 2s ease-in-out infinite;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
+  body {
+    font-family: 'Montserrat', sans-serif;
   }
   
-  33% {
-    transform: rotate(-10deg);
-  }
-
-  66% {
-    transform: rotate(10deg);
+  h1, h2, h3 {
+    font-family: 'Old Standard TT', serif
   }
   
-  100% {
-    transform: rotate(0deg);
+  header {
+    background-color: #001618;
   }
-}
+  
+  .home-main {
+    background: linear-gradient(50deg, #001618f3 0% 55%, #001618c7 55% 100%);
+  }
+  
+  .nav-link {
+    position: relative;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    padding-bottom: 4px;
+  }
+  
+  .nav-link:hover::after {
+    right: 0;
+  }
+  
+  .nav-link::after {
+    border-bottom: 2px solid rgba(0, 89, 99, 0.7);
+    content: "";
+    position: absolute;
+    right: 100%;
+    left: 0;
+    bottom: 0;
+    transition: right .5s ease-in-out;
+  }
+  
+  .features {
+    background: repeating-linear-gradient(140deg, #001618b9 0%, #001618e7 30%, #001618b9 50%)
+  }
+  
+  .phone:hover {
+    animation: rotate 2s ease-in-out;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    33% {
+      transform: rotate(-10deg);
+    }
+  
+    66% {
+      transform: rotate(10deg);
+    }
+    
+    100% {
+      transform: rotate(0deg);
+    }
+  }

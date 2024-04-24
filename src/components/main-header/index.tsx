@@ -7,11 +7,9 @@ export function Header() {
     return (
         <header className="sticky top-0 right-0 left-0 bg-main z-10">
             <div className="flex max-w-[1440px] min-h-[80px] mx-auto justify-between items-center">
-                <div>
-                    <Link href="/" title="Oasis Legacy Bank">
-                        <Image src={logo} alt="" priority />
-                    </Link>
-                </div>
+                <Link href="/" title="Oasis Legacy Bank">
+                    <Image src={logo} alt="" priority />
+                </Link>
                 <nav>
                     <ul className="flex gap-10 font-medium">
                         <li><Link href="/" title="Home" className="text-white nav-link">Home</Link></li>
@@ -22,7 +20,7 @@ export function Header() {
                 </nav>
                 <div className="flex gap-10 font-medium items-center">
                     <Link href='/login' title="Login" className="px-4 py-1 rounded-md bg-orange-500 hover:bg-orange-500/80 transition-colors duration-[400ms]">Login</Link>
-                    <Link href="/sign-up" title="Sign In" className="border-white border px-4 py-1 rounded-md text-white hover:bg-white hover:text-main transition-colors duration-[400ms]">Sign In</Link>
+                    <Link href="/sign-up" title="Sign In" className="border-white border px-4 py-1 rounded-md text-white hover:bg-white hover:text-main transition-colors duration-[400ms]">Sign Up</Link>
                 </div>
             </div>
         </header>

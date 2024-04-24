@@ -1,5 +1,5 @@
-import { Footer } from "@/components/footer"
-import { Header } from "@/components/header"
+import { Footer } from "@/components/main-footer"
+import { Header } from "@/components/main-header"
 
 import '@/styles/globals.css'
 
@@ -11,7 +11,6 @@ export default function RootLayout({
     return (
       <html lang="en">
         <head>
-            <title>OLB | Home</title> 
             <link rel="icon" href="./favicon.ico" sizes="any" />
         </head>
         <body>

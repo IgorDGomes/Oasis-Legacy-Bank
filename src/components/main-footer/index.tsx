@@ -13,19 +13,19 @@ export function Footer() {
                 </Link>
                 <div className="flex gap-5">
                     <Link href='/instagram'>
-                        <Instagram color="white" />
+                        <Instagram color="white" className="hover:text-white/60" />
                     </Link>
                     <Link href='/X'>
-                        <X color="white" />
+                        <X color="white" className="hover:text-white/60" />
                     </Link>
                     <Link href='/facebook'>
-                        <Facebook color="white" />
+                        <Facebook color="white" className="hover:text-white/60" />
                     </Link>
                     <Link href='/linkedin'>
-                        <Linkedin color="white" />
+                        <Linkedin color="white" className="hover:text-white/60" />
                     </Link>
                     <Link href='/youtube'>
-                        <Youtube color="white" />
+                        <Youtube color="white" className="hover:text-white/60" />
                     </Link>
                 </div>
             </div>

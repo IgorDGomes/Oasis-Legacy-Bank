@@ -9,7 +9,7 @@ Oasis Legacy Bank is a banking application that aims to provide a modern and eff
 
 This project is purely hypothetical and does not represent a real-world banking system. The functionalities and features implemented here are simplified versions created to demonstrate common concepts in web development, such as user authentication, account management, and API usage.
 
-**This is not a real banking application, and no real transactions or financial activities are supported.**
+**<span style="color: orange">This is not a real banking application, and no real transactions or financial activities are supported.</span>**
 
 
 
@@ -30,12 +30,13 @@ This project is purely hypothetical and does not represent a real-world banking 
 - Mobile Alerts: Receive alerts for transactions, account updates, and security notifications. -->
 
 
-## Technologies Used
+## Technologies/Tools Used
 
-- CSS
-- Javascript
+- Typescript
+- Tailwindcss
 - Nextjs
-- Express
+- Fastify
+- Prisma
 - PostgreSQL
 
 
@@ -52,7 +53,7 @@ To start using the Oasis Legacy Bank, simply follow these steps:
 
 3. Log in with your existing credentials or sign up to create a new account.
 
-4. Explore the various features of the application, including account management, fund transfers, bill payments, and mobile alerts.
+4. Explore the various features of the application, including account management, fund transfers, and bill payments<!-- , and mobile alerts -->.
 
 
 ## License
@@ -183,14 +184,6 @@ Latest news about the bank
 Updates on new services or features
 
 Financial reports and statements
-
-
-
-
-
-
-
-Foto de Lisa Fotios: https://www.pexels.com/pt-br/foto/pessoa-segurando-o-samsung-galaxy-s8-preto-da-meia-noite-ligar-o-near-macbook-pro-1092671/
 
 
 -->

@@ -19,7 +19,7 @@ export function Header() {
                     </ul>
                 </nav>
                 <div className="flex gap-10 font-medium items-center">
-                    <Link href='/login' title="Login" className="px-4 py-1 rounded-md bg-orange-500 hover:bg-orange-500/80 transition-colors duration-[400ms]">Login</Link>
+                    <Link href='/login' title="Login" className="border border-orange-500 px-4 py-1 rounded-md bg-orange-500 hover:bg-orange-500/80 hover:border-transparent transition-colors duration-[400ms]">Login</Link>
                     <Link href="/sign-up" title="Sign In" className="border-white border px-4 py-1 rounded-md text-white hover:bg-white hover:text-main transition-colors duration-[400ms]">Sign Up</Link>
                 </div>
             </div>

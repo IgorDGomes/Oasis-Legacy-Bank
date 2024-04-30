@@ -1,7 +1,7 @@
 'use client';
  
 import { useChat } from 'ai/react';
-import { ScrollArea } from '../ui/scroll-area';
+import { ScrollArea } from '../../ui/scroll-area';
  
 export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();

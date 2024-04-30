@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from '../../assets/Logo.png'
+import logo from '../../../assets/Logo.png'
 
 export function Header() {
     return (

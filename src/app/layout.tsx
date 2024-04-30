@@ -1,7 +1,9 @@
-import { Footer } from "@/components/main-footer"
-import { Header } from "@/components/main-header"
-
 import { Montserrat, Old_Standard_TT } from "next/font/google"
+
+import { Footer } from "@/components/layout/main-footer"
+import { Header } from "@/components/layout/main-header"
+
+import favicon from "./favicon.ico"
 
 import '@/styles/globals.css'
 
@@ -15,7 +17,6 @@ const oldStandardTT = Old_Standard_TT({
   subsets: ["latin"],
   variable: '--font-old-standard-tt',
 })
-
 export default function RootLayout({
     children,
   }: {
@@ -24,7 +25,7 @@ export default function RootLayout({
     return (
       <html lang="en" className={`${montserrat.className}  ${oldStandardTT.variable}`}>
         <head>
-          <link rel="icon" href="./favicon.ico" sizes="any" />
+          <link rel="icon" href={favicon.src} sizes="any" />
         </head>
         <body>
             <Header />

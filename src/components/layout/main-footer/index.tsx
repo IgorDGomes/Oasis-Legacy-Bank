@@ -6,7 +6,7 @@ import { Bank, Instagram, X, Facebook, Linkedin, Youtube, Github } from 'iconoir
 export function Footer() {
     return (
     <footer>
-        <div className="bg-main/95 mt-20">
+        <div className="bg-main/95">
             <div className="max-w-[1440px] mx-auto flex justify-between py-5 px-10 items-center">
                 <Link href='/' className="bg-gray-300 rounded-lg p-1">
                     <Bank />
@@ -56,7 +56,7 @@ export function Footer() {
                 <ul className="text-white flex flex-col gap-2">
                     <li className="text-xl font-medium pb-2"><span>Quick Link</span></li>
                     <li className="text-sm font-light hover:text-white/60"><Link href='/mobile-app'>Mobile App</Link></li>
-                    <li className="text-sm font-light hover:text-white/60"><Link href='/atm-location'>ATM Locator</Link></li>
+                    <li className="text-sm font-light hover:text-white/60"><Link href='/location'>ATM/Branch Locator</Link></li>
                     <li className="text-sm font-light hover:text-white/60"><Link href='/refer'>Refer a friend</Link></li>
                     <li className="text-sm font-light hover:text-white/60"><Link href='/sitemap'>Sitemap</Link></li>
                 </ul>

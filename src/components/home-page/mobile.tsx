@@ -12,7 +12,7 @@ export function Mobile() {
                 <div className="max-w-[600px] flex flex-col gap-5">
                     <p className="text-3xl font-semibold">Banking made easy, right at your fingertips!</p>
                     <p className="text-lg font-medium">With our app, managing your finances is more convenient than ever, offering features such as secure transactions, easy access to account balances and transaction history, mobile check deposits, fund transfers, and bill payments.</p>
-                    <Link href='/mobile-app' className="bg-button text-black/70 w-fit font-semibold text-xl py-2 px-6 rounded-2xl hover:bg-orange-500/80 hover:text-black transition-colors duration-300 mx-auto">Download</Link>
+                    <Link href='/mobile-app' className="bg-button text-black/70 w-fit font-semibold text-xl py-2 px-6 rounded-2xl shadow-lg hover:shadow-md hover:bg-orange-500/80 hover:text-black transition-all duration-300 mx-auto">Download</Link>
                 </div>
             </div>
         </div>

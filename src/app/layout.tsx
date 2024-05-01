@@ -5,7 +5,7 @@ import { Header } from "@/components/layout/main-header"
 
 import favicon from "./favicon.ico"
 
-import '@/styles/globals.css'
+import "@/styles/globals.css"
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -28,9 +28,11 @@ export default function RootLayout({
           <link rel="icon" href={favicon.src} sizes="any" />
         </head>
         <body>
-            <Header />
+          <Header />
+          <main>
             {children}
-            <Footer />
+          </main>
+          <Footer />
         </body>
       </html>
     )

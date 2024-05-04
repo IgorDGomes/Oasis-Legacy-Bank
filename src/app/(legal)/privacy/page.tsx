@@ -5,91 +5,70 @@ export const metadata: Metadata = {
 }
 
 export default function Privacy() {
+    const date = new Date()
+    const year = date.getFullYear()
+    const month = date.getMonth()
+    const day = date.getDay()
+
+    function correctDay() {
+        if (day < 10) {
+            return "0" + day
+        }
+        return day
+    }
+
+    function correctMonth() {
+        if (month < 10) {
+            return "0" + month
+        }
+        return month
+    }
+
     return (
         <>
-            <div>
-                <div>Privacy</div>
-            </div>
+            <div className='max-w-[1200px] mx-auto py-20 flex flex-col gap-10'>
+                <h1 className='font-bold text-3xl'>Privacy Policy</h1>
+                <div className='flex flex-col gap-6 mb-5'>
+                    <p>Last Updated: {`${correctDay()}/${correctMonth()}/${year}`}</p>
+                    <p>Oasis Legacy operates <a href="https://oasis-legacy.com" className='text-blue-500 hover:text-blue-700 hover:underline'>oasis-legacy.com</a> (the &quot;Site&quot;). This page informs you of our policies regarding the collection, use, and disclosure of Personal Information we receive from users of the Site.</p>
+                    <p>We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.</p>
+                </div>
+                <div className='flex flex-col gap-6'>
+                    <h3 className='text-lg font-semibold'>Information Collection and Use</h3>
+                    <p className='ml-5'>While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to your name, email address, postal address, and phone number (&quot;Personal Information&quot;).</p>
+                    
+                    <h3 className='text-lg font-semibold'>Log Data</h3>
+                    <p className='ml-5'>Like many site operators, we collect information that your browser sends whenever you visit our Site (&quot;Log Data&quot;). This Log Data may include information such as your computer&apos;s Internet Protocol (&quot;IP&quot;) address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages, and other statistics.</p>
+                    
+                    <h3 className='text-lg font-semibold'>Communications</h3>
+                    <p className='ml-5'>We may use your Personal Information to contact you with newsletters, marketing or promotional materials, and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe instructions provided in any email we send.</p>
+                    
+                    <h3 className='text-lg font-semibold'>Cookies</h3>
+                    <p className='ml-5'>Cookies are files with a small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer&apos;s hard drive.</p>
+                    <p className='ml-5'>Like many sites, we use &quot;cookies&quot; to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Site.</p>
+                    
+                    <h3 className='text-lg font-semibold'>Security</h3>
+                    <p className='ml-5'>The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
+                    
+                    <h3 className='text-lg font-semibold'>Changes to This Privacy Policy</h3>
+                    <p className='ml-5'>This Privacy Policy is effective as of ${`${correctDay()}/${correctMonth()}/${year}`} and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p>
+                    <p className='ml-5'>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p>
+                    
+                    <h3 className='text-lg font-semibold'>Contact Us</h3>
+                    <p className='ml-5'>If you have any questions about this Privacy Policy, please contact us.</p>
+                </div>
+                <div className='flex flex-col font-semibold gap-2'>
+                    <p>Oasis Legacy</p>
+                    <p>123 Main Street</p>
+                    <p>Lisbon, 1000-001</p>
+                    <p>Portugal</p>
+                    <p>Email: notarealemailplease@oasislegacy.com</p>
+                    <p>Phone: +351 123 456 789</p>
+                </div>
+            </div>           
+
+            
+
         </>
     )
 }
-
-/*
-Privacy Policy
-
-Introduction
-
-[Bank Name] is committed to protecting the privacy and confidentiality of our customers' personal information. This Privacy Policy outlines how we collect, use, and safeguard your personal information in accordance with the General Data Protection Regulation (GDPR) and other applicable data protection laws.
-
-Information We Collect
-
-We collect and process personal information about you for the purposes of providing banking products and services and to meet our legal and regulatory obligations. The types of personal information we collect may include:
-
-Contact information (e.g., name, address, email address, telephone number)
-Identification information (e.g., date of birth, taxpayer identification number, government-issued ID)
-Financial information (e.g., account numbers, transaction history)
-Employment information (e.g., occupation, employer)
-Sensitive personal information (e.g., racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation)
-How We Use Your Information
-
-We use your personal information for the following purposes:
-
-Providing and administering our products and services
-Processing your transactions
-Verifying your identity
-Managing our relationship with you
-Complying with legal and regulatory requirements
-Detecting and preventing fraud
-Conducting marketing and promotional activities (with your consent, where required by law)
-Legal Basis for Processing
-
-We process your personal information on the following legal bases:
-
-The performance of a contract with you
-Compliance with legal obligations to which we are subject
-The legitimate interests pursued by us or by a third party
-Your consent, where applicable
-Disclosure of Your Information
-
-We may disclose your personal information to the following recipients:
-
-Service providers who perform services on our behalf
-Other financial institutions with whom we have joint marketing agreements
-Government agencies and regulators as required by law
-Other parties with your consent
-International Transfers
-
-Your personal information may be transferred to, and processed in, countries other than the country in which you are resident. These countries may have data protection laws that are different to the laws of your country. However, we have taken appropriate safeguards to ensure that your personal information will remain protected in accordance with this Privacy Policy.
-
-Data Retention
-
-We will retain your personal information for as long as necessary to fulfil the purposes for which it was collected, including for the purposes of satisfying any legal, accounting, or reporting requirements.
-
-Your Rights
-
-You have the following rights in relation to your personal information:
-
-Right of access: You have the right to request a copy of the personal information that we hold about you.
-Right to rectification: You have the right to request that we correct any inaccuracies in your personal information.
-Right to erasure: You have the right to request that we delete your personal information under certain circumstances.
-Right to restrict processing: You have the right to request that we restrict the processing of your personal information under certain circumstances.
-Right to data portability: You have the right to receive the personal information that you have provided to us, in a structured, commonly used, and machine-readable format.
-Right to object: You have the right to object to the processing of your personal information under certain circumstances, including for marketing purposes.
-Security of Your Information
-
-We maintain appropriate technical and organizational measures to protect your personal information against unauthorized or unlawful processing and against accidental loss, destruction, or damage.
-
-Changes to this Privacy Policy
-
-We may update this Privacy Policy from time to time. Any changes will be posted on our website with the updated effective date.
-
-Contact Us
-
-If you have any questions or concerns about our Privacy Policy or our privacy practices, please contact us at:
-
-[Bank Name]
-[Address]
-[City, Postal Code]
-[Phone Number]
-[Email Address]
-*/

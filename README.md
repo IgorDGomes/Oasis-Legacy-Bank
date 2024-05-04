@@ -110,19 +110,6 @@ Customer Support:
 
 Contact information (phone numbers, email addresses)
 
-Live chat support
-
-Frequently Asked Questions (FAQs)
-
-
-
-Branch and ATM Locator:
-
-
-Maps and information on branch locations
-
-ATM locator with search functionality
-
 
 
 Security and Privacy:

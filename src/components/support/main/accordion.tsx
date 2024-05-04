@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 
 export function FAQ() {
     return (
-        <div className='w-[1400px] mx-auto'>
+        <div className='w-[1000px] mx-auto'>
             <Accordion collapsible type='single'>
                 <AccordionItem value='faq-1'>
                     <AccordionTrigger>

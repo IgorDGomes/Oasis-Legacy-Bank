@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Disallow: /admin/
+Sitemap: http://localhost:3030/sitemap.xml

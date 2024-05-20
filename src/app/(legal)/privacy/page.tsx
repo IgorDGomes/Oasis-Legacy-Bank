@@ -62,7 +62,7 @@ export default function Privacy() {
                     <p>123 Main Street</p>
                     <p>Lisbon, 1000-001</p>
                     <p>Portugal</p>
-                    <p>Email: notarealemailplease@oasislegacy.com</p>
+                    <p>Email: notarealemail@oasislegacy.com</p>
                     <p>Phone: +351 123 456 789</p>
                 </div>
             </div>           

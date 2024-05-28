@@ -186,6 +186,8 @@ Financial reports and statements
 <!-- Included
 
    Database Diagram ✓
+   Use Case Diagram ✓
+   Entity-Relationship Diagram (ERD) ✓
 
 -->
 
@@ -195,10 +197,8 @@ Financial reports and statements
    Site Map
    Wireframe
    Mockup
-   Entity-Relationship Diagram (ERD)
-   Data Flow Diagram (DFD)
+   Data Flow Diagram (DFD)     -     Yourdon & Coad
    Security Diagram
-   Use Case Diagram
    Activity Diagram
 
 -->

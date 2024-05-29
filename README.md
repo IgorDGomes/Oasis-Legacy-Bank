@@ -55,7 +55,7 @@ To start using the Oasis Legacy Bank, simply follow these steps:
 
 3. Log in with your existing credentials or sign up to create a new account. `(Not available yet)`
 
-4. Explore the various features of the application, including account management, fund transfers, and bill payments<!-- , and mobile alerts -->.  `(Not available yet)`
+4. Explore the various features of the application, including account management, fund transfers, bill payments, and mobile alerts.  `(Not available yet)`
 
 
 ## Progress
@@ -67,7 +67,7 @@ The website is still under development, and the project's completion has been de
 
 This project is licensed under the [MIT License](./LICENSE).
 
-Feel free to use, modify, and distribute the code in accordance with the terms of the license. If you use this project in your own work, consider giving credit to the original authors by linking back to this repository.
+Feel free to use the code in accordance with the terms of the license. If you use this project in your own work, consider giving credit to the original authors by linking back to this repository.
 
 
 <!--
@@ -188,17 +188,30 @@ Financial reports and statements
    Database Diagram ✓
    Use Case Diagram ✓
    Entity-Relationship Diagram (ERD) ✓
+   Flowchart
+               - Register ✓ 
+               - Transfer Funds ✓
+               - Close Account ✓ 
 
 -->
 
 <!-- Left to include
 
-   Flowchart
+   Flowchart      
+               - Pay Bills
+               - Schedule Recurring Payments
+               - Manage Profile
+               - Open New Account
+               - View Transaction History
+               - View Notifications
+               - Reset Password
+               - Create New Card
    Site Map
    Wireframe
    Mockup
    Data Flow Diagram (DFD)     -     Yourdon & Coad
-   Security Diagram
-   Activity Diagram
+
+   Security Diagram  Not necessary
+   Activity Diagram  Not Necessary
 
 -->

@@ -15,10 +15,11 @@ This project is purely hypothetical and does not represent a real-world banking 
 
 ## Table of Contents
 
-- [Technologies Used](#technologies-used)
+- [Technologies/Tools Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Progress](#progress)
 - [License](#license)
+<!-- - [Features](#features) -->
 <!-- - [Testing](#testing) -->
 
 <!-- 
@@ -31,7 +32,7 @@ This project is purely hypothetical and does not represent a real-world banking 
 - Mobile Alerts: Receive alerts for transactions, account updates, and security notifications. -->
 
 
-## Technologies/Tools Used
+## Technologies Used
 
 - Typescript
 - Tailwindcss

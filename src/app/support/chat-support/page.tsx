@@ -1,4 +1,4 @@
-import Chat from '@/components/support/ai/chat'
+import { Chat } from '@/components/support/main'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {

@@ -12,7 +12,7 @@ export function Hero() {
                 </div>
                 <div className="flex justify-evenly w-full">
                     <Link href='/sign-up' className="flex items-center bg-orange-500 px-6 py-2 rounded-xl font-medium text-main hover:bg-orange-500/80 transition-colors duration-[400ms]">Create Account</Link>
-                    <Link href='/support/contact' className="flex items-center border-2 border-white px-6 py-2 rounded-xl font-medium text-white hover:bg-white hover:text-main transition-colors duration-[400ms]">Contact Us</Link>
+                    <Link href='/contact-us' className="flex items-center border-2 border-white px-6 py-2 rounded-xl font-medium text-white hover:bg-white hover:text-main transition-colors duration-[400ms]">Contact Us</Link>
                 </div>
             </div>
 

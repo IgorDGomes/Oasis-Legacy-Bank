@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 }
 
 export default function ContactUs() {
+    console.log(new Date())
     return (
         <div className="flex flex-col gap-10 lg:max-w-[1440px] mx-auto">
             <div className="relative">

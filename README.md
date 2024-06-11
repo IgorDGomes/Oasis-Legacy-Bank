@@ -15,6 +15,7 @@ This project is purely hypothetical and does not represent a real-world banking 
 
 ## Table of Contents
 
+- [Preview](#preview)
 - [Technologies/Tools Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Progress](#progress)
@@ -30,6 +31,29 @@ This project is purely hypothetical and does not represent a real-world banking 
 - Fund Transfer: Transfer funds between accounts securely.
 - Bill Payments: Pay bills conveniently through the application.
 - Mobile Alerts: Receive alerts for transactions, account updates, and security notifications. -->
+
+
+## Preview
+
+<details>
+<summary>Desktop Previews</summary>
+
+### Home
+---
+
+![Desktop Home Preview](./docs/previews/Desktop-Home-Preview.png)
+
+### Error
+---
+
+![Desktop Error Preview](./docs/previews/Desktop-Error-Preview.png)
+
+### Not Found
+---
+
+![Desktop Not Found Preview](./docs/previews/Desktop-Not-Found-Preview.png)
+
+</details>
 
 
 ## Technologies Used

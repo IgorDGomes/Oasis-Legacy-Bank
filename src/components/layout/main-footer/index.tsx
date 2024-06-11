@@ -57,7 +57,7 @@ export function Footer() {
                     <li className="text-xl font-medium pb-2"><span>Quick Link</span></li>
                     <li className="text-sm font-light hover:text-white/60"><Link href='/mobile-app'>Mobile App</Link></li>
                     <li className="text-sm font-light hover:text-white/60"><Link href='/location'>ATM/Branch Locator</Link></li>
-                    <li className="text-sm font-light hover:text-white/60"><Link href='/refer'>Refer a friend</Link></li>
+                    <li className="text-sm font-light hover:text-white/60"><Link href='/refer-a-friend'>Refer a friend</Link></li>
                     <li className="text-sm font-light hover:text-white/60"><Link href='/sitemap'>Sitemap</Link></li>
                 </ul>
             </div>

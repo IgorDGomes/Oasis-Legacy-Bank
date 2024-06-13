@@ -41,7 +41,7 @@ export function Footer() {
 
                 <ul className="text-white flex flex-col gap-2">
                     <li className="text-xl font-medium pb-2"><span>About</span></li>
-                    <li className="text-sm font-light hover:text-white/60"><Link href='/about-us'>About Oasis Legacy</Link></li>
+                    <li className="text-sm font-light hover:text-white/60"><Link href='/about'>About Oasis Legacy</Link></li>
                     <li className="text-sm font-light hover:text-white/60"><Link href='/contact-us'>Contact Us</Link></li>
                     <li className="text-sm font-light hover:text-white/60"><Link href='/services/investment'>Investor Relations</Link></li>
                 </ul>

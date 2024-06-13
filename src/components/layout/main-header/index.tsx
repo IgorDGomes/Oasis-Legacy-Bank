@@ -15,7 +15,7 @@ export function Header() {
                         <li><Link href="/" title="Home" className="text-white nav-link">Home</Link></li>
                         <li><Link href="/services" title="Services" className="text-white nav-link">Services</Link></li>
                         <li><Link href="/support" title="Support" className="text-white nav-link">Support</Link></li>
-                        <li><Link href="/about-us" title="About Us" className="text-white nav-link">About Us</Link></li>
+                        <li><Link href="/about" title="About Us" className="text-white nav-link">About Us</Link></li>
                     </ul>
                 </nav>
                 <div className="flex gap-10 font-medium items-center">

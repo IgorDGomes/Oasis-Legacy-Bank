@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/main-header"
 import favicon from "./favicon.ico"
 
 import "@/styles/globals.css"
+import { Toaster } from "@/components/ui/toaster"
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <Toaster />
         </body>
       </html>
     )

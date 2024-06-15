@@ -1,0 +1,67 @@
+{
+    "users": {
+        "1": {
+            "id": 83201903,
+            "fullName": "John Wick",
+            "age": 38,
+            "secret": {
+                "email": "johnwick123@john.com",
+                "password": "babayaga123"
+            }
+        },
+        "2": {
+            "id": 83201904,
+            "fullName": "Bruce Wayne",
+            "age": 42,
+            "secret": {
+                "email": "brucewayne123@wayne.com",
+                "password": "batman123"
+            }
+        },
+        "3": {
+            "id": 83201905,
+            "fullName": "Clark Kent",
+            "age": 38,
+            "secret": {
+                "email": "clarkkent123@dailyplanet.com",
+                "password": "superman123"
+            }
+        },
+        "4": {
+            "id": 83201906,
+            "fullName": "Diana Prince",
+            "age": 30,
+            "secret": {
+                "email": "dianaprince@themyscira.com",
+                "password": "wonderwoman123"
+            }
+        },
+        "5": {
+            "id": 83201907,
+            "fullName": "Peter Parker",
+            "age": 25,
+            "secret": {
+                "email": "peterparker@dailybugle.com",
+                "password": "spiderman123"
+            }
+        },
+        "6": {
+            "id": 83201908,
+            "fullName": "Natasha Romanoff",
+            "age": 32,
+            "secret": {
+                "email": "natasha@shield.com",
+                "password": "blackwidow123"
+            }
+        },
+        "7": {
+            "id": 83201909,
+            "fullName": "Tony Stark",
+            "age": 45,
+            "secret": {
+                "email": "tony@starkindustries.com",
+                "password": "ironman123"
+            }
+        }
+    }
+}

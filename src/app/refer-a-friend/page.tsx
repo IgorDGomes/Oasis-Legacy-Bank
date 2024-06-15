@@ -1,6 +1,11 @@
 import Image from "next/image";
+import { Metadata } from "next";
 
 import Temp from "@/assets/Instagram.svg"
+
+export const metadata: Metadata = {
+    title: 'OLB | Refer a Friend'
+}
 
 export default function ReferAFriend() {
     return (

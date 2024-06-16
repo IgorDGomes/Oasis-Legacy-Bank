@@ -20,15 +20,19 @@ export function Login() {
             const dbParse = JSON.parse(jsonDB)
             for (let key in dbParse) {
                 if (dbParse[key].secret.email === email && dbParse[key].secret.password === password) {
-                    alert("Welcome back " + dbParse[key].fullName)
-                    return router.push('/dashboard')
+                    router.push('/dashboard')
+                    toast({
+                        description: `Welcome back, ${dbParse[key].fullName} we missed you!`
+                    })
                 }
             }
-    
+
+            // alert("Wrong credentials!")
             toast({
                 variant: "destructive",
                 description: "Wrong credentials!",
             })
+
             data.preventDefault()
         } catch (error) {
             alert(error)
